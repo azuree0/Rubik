@@ -51,7 +51,7 @@ Rotating faces until all 6 sides have same color.
 # History
 
 ### Invention (1974)
-- **Ernő Rubik**: Hungarian sculptor and professor of architecture invented the cube in 1974.
+- **Ernő Rubik**: Hungarian sculptor & professor of architecture invented the cube in 1974.
 - **Original Purpose**: Created as a teaching tool to help students understand 3D spatial relationships.
 - **First Name**: Originally called the "Magic Cube" (Bűvös kocka in Hungarian).
 - **Patent**: Rubik applied for a Hungarian patent in 1975.
