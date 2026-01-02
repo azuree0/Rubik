@@ -8,7 +8,6 @@
 
 - **CMake** 3.15 or later - (https://cmake.org/download/)
 - **C++ Compiler** with C++17 support:
-  - [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/)
   - [MinGW-w64](https://www.mingw-w64.org/downloads/)
 - **SFML 2.5** or later - [Download](https://www.sfml-dev.org/download.php)
   - Extract to a location (e.g., `C:/SFML`)
