@@ -1,3 +1,5 @@
+<img width="1395" height="1036" alt="R" src="https://github.com/user-attachments/assets/40cc2d79-a70b-40dd-aa0b-0485e6bc412a" />
+
 <br>
 
 # Prerequisites
@@ -79,6 +81,5 @@ Rotating faces until all 6 sides have same color.
 ├── renderer.h/cpp       # 3D OpenGL rendering system
 ├── copy_dlls.ps1        # PowerShell script to copy SFML DLLs
 ├── .gitignore           # Git ignore file
-├── R.png                # Project logo/image
 └── README.md            # This file
 ```
