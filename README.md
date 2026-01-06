@@ -83,28 +83,3 @@ Rotating faces until all 6 sides have same color.
 ├── .gitignore # Git ignore file
 └── README.md # This file
 ```
-
-# Files Needed for Build and Run
-
-## Source Files (Required for Build)
-- `CMakeLists.txt` - Build configuration
-- `main.cpp` - Main application entry point
-- `rubik_cube.cpp` / `rubik_cube.h` - Rubik's cube logic and rotation mechanics
-- `renderer.cpp` / `renderer.h` - 3D OpenGL rendering system
-
-## External Dependencies (Required for Build)
-- **SFML 2.5+** installed at `C:/SFML` (or path specified via `-DSFML_ROOT`)
-  - Headers: `C:/SFML/include/`
-  - Libraries: `C:/SFML/lib/` (e.g., `sfml-graphics.lib`, `sfml-window.lib`, `sfml-system.lib`)
-- **CMake** 3.15 or later
-- **C++17 compiler** (e.g., MinGW-w64)
-- **OpenGL** support (usually included with graphics drivers)
-
-## Runtime Files (Required to Run)
-- `build/Release/RubikGame.exe` - Built executable
-- **SFML DLLs** in `build/Release/` directory:
-  - `sfml-graphics-2.dll` (or `sfml-graphics-d-2.dll` for Debug)
-  - `sfml-window-2.dll` (or `sfml-window-d-2.dll` for Debug)
-  - `sfml-system-2.dll` (or `sfml-system-d-2.dll` for Debug)
-  - `sfml-audio-2.dll` (if audio features are used)
-  - `sfml-network-2.dll` (if networking features are used)
