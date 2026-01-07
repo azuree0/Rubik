@@ -69,16 +69,16 @@ Rotating faces until all 6 sides have same color.
 
 <br>
 
-# Arch
+# Structure
 
 ```
 .
-├── CMakeLists.txt # Build configuration
-├── main.cpp # Main application and SFML GUI
-├── rubik_cube.h # Rubik's cube logic header
-├── rubik_cube.cpp # Rubik's cube logic and rotation mechanics
-├── renderer.h # 3D OpenGL rendering system header
-├── renderer.cpp # 3D OpenGL rendering system implementation
+├── CMakeLists.txt # Build configuration (.exe)
+├── main.cpp # Main application and SFML GUI (Frontend)
+├── rubik_cube.h # Rubik's cube logic header (Backend)
+├── rubik_cube.cpp # Rubik's cube logic and rotation mechanics (Backend)
+├── renderer.h # 3D OpenGL rendering system header (Frontend)
+├── renderer.cpp # 3D OpenGL rendering system implementation (Frontend)
 ├── copy_dlls.ps1 # PowerShell script to copy SFML DLLs
 ├── .gitignore # Git ignore file
 └── README.md # This file
