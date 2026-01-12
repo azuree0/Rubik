@@ -73,13 +73,13 @@ Rotating faces until all 6 sides have same color.
 
 ```
 .
-├── CMakeLists.txt # Build configuration (.exe)
-├── main.cpp # Main application and SFML GUI (Frontend)
-├── rubik_cube.h # Rubik's cube logic header (Backend)
-├── rubik_cube.cpp # Rubik's cube logic and rotation mechanics (Backend)
-├── renderer.h # 3D OpenGL rendering system header (Frontend)
-├── renderer.cpp # 3D OpenGL rendering system implementation (Frontend)
-├── copy_dlls.ps1 # PowerShell script to copy SFML DLLs
-├── .gitignore # Git ignore file
-└── README.md # This file
+├── CMakeLists.txt          # Build configuration (Backend) (Config)
+├── .gitignore              # Git ignore file (Config)
+├── rubik_cube.h            # Rubik's cube logic header (Backend) (Source / 1 Header)
+├── rubik_cube.cpp          # Rubik's cube logic and rotation mechanics (Backend) (Source / 2 Library)
+├── renderer.h              # 3D OpenGL rendering system header (Frontend) (Source / 1 Header)
+├── renderer.cpp            # 3D OpenGL rendering system implementation (Frontend) (Source / 2 Library)
+├── main.cpp                # Main application and SFML GUI (Frontend) (Source / 3 Script)
+├── copy_dlls.ps1           # PowerShell script to copy SFML DLLs (Config)
+└── README.md               # This file
 ```
