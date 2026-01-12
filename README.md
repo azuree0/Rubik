@@ -55,7 +55,7 @@ Rotating faces until all 6 sides have same color.
 - **Original Purpose**: Created as a teaching tool to help students understand 3D spatial relationships.
 - **First Name**: Originally called the "Magic Cube" (Bűvös kocka in Hungarian).
 - **Patent**: Rubik applied for a Hungarian patent in 1975.
-- **Worldwide Phenomenon**: Over 100 million cubes sold in the first two years.
+- **Phenomenon**: Over 1000,000 cubes sold in the 1st 2 years.
 
 <br>
 
