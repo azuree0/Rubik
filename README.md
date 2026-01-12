@@ -55,17 +55,7 @@ Rotating faces until all 6 sides have same color.
 - **Original Purpose**: Created as a teaching tool to help students understand 3D spatial relationships.
 - **First Name**: Originally called the "Magic Cube" (Bűvös kocka in Hungarian).
 - **Patent**: Rubik applied for a Hungarian patent in 1975.
-
-### Modern (1980s-Present)
-- **International Release**: Licensed to Ideal Toy Corp. in 1980, renamed "Rubik's Cube".
 - **Worldwide Phenomenon**: Over 100 million cubes sold in the first two years.
-- **Algorithms**: Development of advanced solving methods (CFOP, Roux, ZZ, Petrus).
-- **Digital Versions**: Transition to computer simulations and virtual reality implementations.
-
-### Logos
-
-- **Permutations**: The cube has 43,252,003,274,489,856,000 (43 quintillion) possible configurations.
-- **God's Number**: Proven in 2010 that any scrambled cube can be solved in 20 moves or fewer.
 
 <br>
 
@@ -73,13 +63,13 @@ Rotating faces until all 6 sides have same color.
 
 ```
 .
-├── CMakeLists.txt          # Build configuration (Backend) (Config)
-├── .gitignore              # Git ignore file (Config)
-├── rubik_cube.h            # Rubik's cube logic header (Backend) (Source / 1 Header)
-├── rubik_cube.cpp          # Rubik's cube logic and rotation mechanics (Backend) (Source / 2 Library)
-├── renderer.h              # 3D OpenGL rendering system header (Frontend) (Source / 1 Header)
-├── renderer.cpp            # 3D OpenGL rendering system implementation (Frontend) (Source / 2 Library)
-├── main.cpp                # Main application and SFML GUI (Frontend) (Source / 3 Script)
+├── CMakeLists.txt          # Build configuration                 (Backend)  (Config)
+├── .gitignore              # Git ignore file                     (Config)
+├── rubik_cube.h            # Rubik's cube logic header           (Backend)  (Source / 1 Header)
+├── rubik_cube.cpp          # Rubik's cube logic and rotation     (Backend)  (Source / 2 Library)
+├── renderer.h              # 3D OpenGL rendering system header   (Frontend) (Source / 1 Header)
+├── renderer.cpp            # 3D OpenGL rendering implementation  (Frontend) (Source / 2 Library)
+├── main.cpp                # Main application and SFML GUI       (Frontend) (Source / 3 Script)
 ├── copy_dlls.ps1           # PowerShell script to copy SFML DLLs (Config)
 └── README.md               # This file
 ```
