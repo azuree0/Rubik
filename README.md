@@ -2,7 +2,7 @@
 
 <br>
 
-# Prerequisites
+# C++
 
 ### Install
 
